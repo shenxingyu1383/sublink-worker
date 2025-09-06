@@ -120,6 +120,8 @@ export const generateStyles = () => `
     padding: 0.75rem 1rem;
     border-radius: 8px;
     transition: all 0.3s ease;
+    white-space: nowrap;
+    overflow-x: auto;
   }
 
   .form-control:focus, .form-select:focus {
